@@ -1,0 +1,18 @@
+node_modules/
+dist/
+build/
+.env
+*.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# ML artifacts (regenerate via train_model.py, don't commit large model files)
+ml-service/models/*.joblib
+ml-service/data/dataset.csv
+
+# OS
+.DS_Store

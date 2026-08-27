@@ -1,0 +1,21 @@
+{
+  "results": {
+    "decision_tree": {
+      "accuracy": 0.6557,
+      "f1_score": 0.6372
+    },
+    "random_forest": {
+      "accuracy": 1.0,
+      "f1_score": 1.0
+    },
+    "naive_bayes": {
+      "accuracy": 0.9836,
+      "f1_score": 0.9825
+    },
+    "voting_ensemble": {
+      "accuracy": 1.0,
+      "f1_score": 1.0
+    }
+  },
+  "best_model": "voting_ensemble"
+}
